@@ -17,7 +17,7 @@ class CreateTravelTable extends Migration
             $table->id();
             $table->string('caption');
             $table->text('description');
-            $table->string('thumnail');
+            $table->string('thumbnail');
             $table->string('address');
             $table->double('latitude');
             $table->double('longitude');
