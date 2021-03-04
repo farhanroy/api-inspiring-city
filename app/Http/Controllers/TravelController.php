@@ -21,4 +21,6 @@ class TravelController extends Controller {
         //return $this->sendResponse(TravelResource::collection($travels), 'Travels retrieved successfully.');
         return response()->json(["status" => "success", "count" => count($travels), "data" => $travels], 200);
     }
+
+    
 }
